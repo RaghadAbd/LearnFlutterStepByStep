@@ -1,0 +1,13 @@
+Download and install Visual Studio Code:
+
+Install VS Code - https://code.visualstudio.com
+
+1. Download "default settings"
+2. Open the app
+3. Open Folder "first-app"
+4. Load the extensions so we can use flutter:
+    - Flutter
+    - Dart
+    - Material icon theme "Optional"
+5. Now you can see the flutter code inside: lib->main.dart
+   Inside it we will see the code responsible for operating the default mobile
