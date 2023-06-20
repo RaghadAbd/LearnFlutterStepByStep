@@ -1,48 +1,30 @@
-تحميل وتثبيت فلاتر وبرنامج أندرويد استوديو 2021:
-1.	https://flutter.dev/development?gclid=CjwKCAjw-b-kBhB-EiwA4fvKrAz986eljLzrFf-xihf6Ihd3cBIt6syR56fR7kfKEsgRg-xIo6K4jxoCKMEQAvD_BwE&gclsrc=aw.ds
-2.	Docs
-3.	Get Started
-4.	Windows
-5.	Tools: Windows PowerShell 5.0 , Git for Windows   قم بتحميل الادوات 
-6.	Git(default setting) -  للتأكد من وجوده على الcmd اكتب git
-7.	Windows PowerShell 5.0 يكون موجود على windows 10 تلقائيا
-8.	Get The Flutter SDK عند تحميله سيحوي مجلد فلاتر سنقوم بفك الضغط عنه ،و وضعه في المسار التالي:  C development
-9.	Update your path
-افتح قائمة ابدأ وابحث عن edit the system environment your account
-هل يوجد في القيم path variable اذا غير موجود سأقوم ب انشاه
-اذا موجود بفتحه وبضيف الباث تبع فلاتر  C\:development\flutter\bin ثم OK
-10.	افتح Windows PowerShell
-اكتب  flutter رح تشوف الاوامر يلي يستخدمها فلاتر وهيك نتأكد انه شغلنا صحيح ولا يوجد مشاكل
-اكتب flutter doctor رح يطلع ما الاشياء اللي منزلة ورح يطلع الاشياء اللي لازم انزلها
-11.	Android setup
-Install Android Studio-default setting
-12.	افتح Android Studio --<  Next <--Custom<--Next— F<--Next<--Next<--Next<
-13.	افتح Windows PowerShell
-اكتب flutter doctor وتأكد ان كل شيء قمت بتنزيله
-14.	Agree to Android Licenses
-flutter doctor --android-licenses  اكمل على خطوة13
-flutter doctor
-15.	Set up the Android emulator
-من خلال android studio، قم بفتحه
-Configure->SDK Manager ->SDK Platform->Android 9.0(pie)->SDK Tools->Google USB Driver->ok->f
-16.	انشاء الموبايل الافتراضي اللي بدنا نشغل عليه التطبيقات
-داخل C->development->new folder(flutter-apps)
-17.	ارجع ل Windows PowerShell
-انشاء برنامج فلاتر جديد بداخله:
-cd..+cd..+cd .\development\+cd . \flutter-apps\+flutter create first_app
-18.	Android Studio
-Configure->AVD Manager->Create virtual device-> Device type "pixel 4"
-تحميل نسخة نظام التشغيل Pie Download
-بحددها ثم التالي ثم انهاء ثم بضغط على علامة التشغيل في الحقل Actions
-19.	فتح المشروع الجديد من خلال Android Studio
-Open an existing project->development->flutter-apps->first-app->ok
-عندما يفتح اقوم بتحميل configure plugins-restart to active plugin updates<
-اضغط علامة run"في القوائم" ورح يشتغل على الموبايل الافتراضي 
+تحميل وتثبيت فلاتر وبرنامج أندرويد استوديو To download and install Flutter in Android Studio, follow these steps:
 
-هذا تطبيق اولي ولكننا لن نستخدم   Android Studioلتشغيل تطبيقاتنا
+1. Download and install Android Studio: Visit the official Android Studio website at https://developer.android.com/studio 
+   and download the latest version of Android Studio for your operating system. Run the installer and follow the on-screen instructions
+   to install it.
 
-الطريقة الاخرى:
-20.	Windows PowerShell
--مسار التطبيق اللي بدنا نشغله "first-app"
--flutter run "تأكد من ان التطبيق الافتراضي شغال" وهكذا سوف يشتغل التطبيق على الموبايل الافتراضي
+2. Set up Android Studio: Open Android Studio after installation and complete the initial setup wizard.
+   This includes selecting a UI theme, installing necessary SDK components, and configuring the Android Virtual Device (AVD) manager.
 
+3. Open Android Studio's Preferences: Once Android Studio is open, go to the "Preferences" menu on macOS or the "Settings"
+   menu on Windows/Linux.
+
+4. Install the Flutter plugin: In the preferences/settings window, navigate to "Plugins" on the left-hand side.
+   Click on the "Marketplace" tab and search for "Flutter." Locate the official Flutter plugin and click the "Install" button.
+   Once the installation is complete, click "Restart" to restart Android Studio.
+
+5. Set up Flutter SDK: After restarting, go back to the preferences/settings window. This time, navigate to "Languages & Frameworks"
+   and select "Flutter" from the left-hand side menu. Click on the "Enable Flutter SDK" checkbox.
+   If you haven't already downloaded the Flutter SDK, click on "Download SDK" to fetch the latest version.
+   Provide a path for the Flutter SDK installation and click "Apply" to save the settings.
+
+6. Create a new Flutter project: Now, you can create a new Flutter project. Select "File" from the top menu, navigate to "New,
+   " and choose "New Flutter Project." Follow the prompts to set up your project, including providing a project name,
+   choosing a Flutter SDK, and selecting an Android device to run the app on.
+
+7. Run the Flutter app: Once your project is set up, you can run your Flutter app. Select the target device from the toolbar,
+   click on the play button, or use the "Run" menu option to launch your app on the selected device.
+
+That's it! You have successfully downloaded and installed Flutter in Android Studio. 
+You can now start developing Flutter applications using the powerful features and tools provided by Android Studio.
